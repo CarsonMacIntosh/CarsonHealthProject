@@ -1,0 +1,7 @@
+C:\Users\w0441119\source\repos\CarsonHealthProject\CarsonHealthProject\bin\Debug\CarsonHealthProject.exe.config
+C:\Users\w0441119\source\repos\CarsonHealthProject\CarsonHealthProject\bin\Debug\CarsonHealthProject.exe
+C:\Users\w0441119\source\repos\CarsonHealthProject\CarsonHealthProject\bin\Debug\CarsonHealthProject.pdb
+C:\Users\w0441119\source\repos\CarsonHealthProject\CarsonHealthProject\obj\Debug\CarsonHealthProject.csproj.AssemblyReference.cache
+C:\Users\w0441119\source\repos\CarsonHealthProject\CarsonHealthProject\obj\Debug\CarsonHealthProject.csproj.CoreCompileInputs.cache
+C:\Users\w0441119\source\repos\CarsonHealthProject\CarsonHealthProject\obj\Debug\CarsonHealthProject.exe
+C:\Users\w0441119\source\repos\CarsonHealthProject\CarsonHealthProject\obj\Debug\CarsonHealthProject.pdb
