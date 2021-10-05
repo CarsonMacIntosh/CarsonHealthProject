@@ -9,15 +9,33 @@ namespace CarsonHealthProject
     class Program
     {
         static int weapon = 0;
-        static int health = 100;
-        int changeWeapon = 1;
-        int damage = 0;
-        int heal = 0;
+        static int health = 999;
+        static int changeWeapon = 1;
+        static int damage = 0;
+        static int heal = 0;
         static bool alive = true;
+        static string weaponName;
+        static string conditionName;
         static void Main(string[] args)
         {
-            // strings
-            string weaponName;
+            Console.WriteLine("Carson Conditionals Project");
+            Console.WriteLine("Press any key to continue");
+            Console.ReadKey(true);
+            Console.Clear();
+
+            ShowHUD();
+            Console.WriteLine("You enter the depths of hell, you have only a wee little baby's gun with you.");
+            Console.ReadKey(true);
+
+            int damage = 25;
+            Console.Clear();
+            ShowHUD();
+            Console.WriteLine("This is where this project ends, I'm sorry for not being good enough for this course, I want to succeed but all of this coding stuff is way over my head.");
+            Console.ReadKey(true);
+
+        }
+        static void ShowHUD()
+        {
 
             if (weapon == 0)
             {
@@ -54,22 +72,20 @@ namespace CarsonHealthProject
                 weaponName = "Nuke";
             }
 
-
-            string conditionName;
-
             if (health >= 100)
             {
+                health = 100;
                 conditionName = "Stayin' Alive";
             }
 
             if (health <= 99)
             {
-                conditionName = "Healthy";
+                conditionName = "Stayin' Alive";
             }
 
             if (health <= 75)
             {
-                conditionName = "Not as Healthy";
+                conditionName = "Not so Healthy";
             }
 
             if (health <= 50)
@@ -84,25 +100,15 @@ namespace CarsonHealthProject
 
             if (health <= 0)
             {
+                health = 0;
                 conditionName = "ded. not big soup rice";
                 alive = false;
             }
 
-            // the actual game
-
-            Console.WriteLine("Carson Conditionals Project");
-            Console.WriteLine("Press any key to continue");
-            Console.ReadKey(true);
-            Console.Clear();
-
-            ShowHUD();
-            Console.WriteLine("Status: " + conditionName);
-            Console.ReadKey(true);
-
-        }
-        static void ShowHUD()
-        {
             Console.WriteLine("Health: " + health);
+            Console.WriteLine("Weapon: " + weaponName);
+            Console.WriteLine("Status: " + conditionName);
+            Console.WriteLine("");
         }
 
     }
